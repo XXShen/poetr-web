@@ -1,0 +1,274 @@
+#header, #body{
+    width: 1050px;
+    overflow: hidden;
+    clear: both;
+    margin: 0 auto;
+}
+.none {
+    display: none;
+}
+.leftside {
+    float: left;
+}
+.rightside {
+    float: right;
+}
+.mtop {
+    margin-top: 10px;
+}
+.mtop20 {
+    margin-top: 20px;
+}
+#top{
+    height: 34px;
+    overflow: hidden;
+    width: 100%;    
+    background: #f2f2f2;    
+    border-bottom: 1px solid #666;
+}
+.topCenter{
+    width: 1050px;
+    overflow: hidden;
+    height: 34px;
+}
+.topCenter p{
+    float: right;
+    font-size: 14px;
+    color: #666;
+    line-height: 34px;
+}
+.topCenter p a{
+    color: #666;
+    margin: 0 5px;
+}
+#header .logo{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+#header .sponsor{
+    font-size: 18px;
+    float: left;
+}
+.subheading{
+    float: left;
+    margin: 0 0 0 280px;
+}
+.searchMode{
+    float: right;
+    width: 246px;
+}
+.searchMode input{
+    width: 190px;
+    height: 24px;
+    border: 1px solid #333;
+    float: left;
+}
+.searchMode button{
+    background: #c40d0d;
+    height: 26px;
+    border: none;
+    width: 54px;
+    text-align: center;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+}
+#nav{
+    width: 100%;
+    background: #a73244;
+    height: 56px;
+    line-height: 56px;
+    color: #fff;
+    font-size: 16px;
+}
+#nav ul{
+    width: 1050px;
+    margin: 0 auto;
+    line-height: 56px;
+    color: #fff;
+}
+#nav ul a{
+    color: #fff;
+}
+#nav li{
+    float: left;
+    padding: 0 16px;
+}
+#nav .onThis
+{
+    background: #8c1729;
+}
+.bigMode,.bigModeHead,.bigModeBody{
+    width: 100%;
+    overflow: hidden;
+}
+.bigMode .bigModeHead,.smallModeHead{
+    background: url(../img/grayBg.png) repeat-x bottom;
+    height: 44px;
+}
+.bigMode .bigModeHead h3,.smallModeHead h3{
+    background: url(../img/tongyonghead.png) no-repeat  bottom;
+    float: left;
+    height: 44px;
+    width: 113px;
+    line-height: 44px;
+    font-size: 24px;
+    text-align: center;
+}
+.bigMode .bigModeHead a{
+    float: right;
+    line-height: 44px; 
+    color: #b91921;
+    font-size: 14px;
+}
+.bigModeBody{
+    padding: 10px 0 0 0;
+}
+
+.smallMode{
+    width: 510px;
+    overflow: hidden;
+    float: left;
+}
+.smallModeHead,.smallModeBody{
+    width: 100%;
+    overflow: hidden;
+}
+.smallModeHead .more{
+    float: right;
+    line-height: 44px; 
+    color: #b91921;
+    font-size: 14px;
+}
+.smallModeHead p{
+    float: left;
+    line-height: 44px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.smallModeHead p a{
+    float: left;
+    margin: 0 0 0 10px;
+    color: #666;
+}
+.left30{
+    margin-left: 30px;
+}
+#footer {
+    width: 100%;
+    overflow: hidden;
+     border-top: 1px solid #ccc;
+     padding-top: 30px;
+}
+#footer .footMain{
+    overflow: hidden;
+    clear: both;
+    margin: 0 auto;
+    width: 1050px;
+}
+.about{
+    width: 305px;
+    height: 105px;
+    overflow: hidden;
+    float: left;
+    padding-left: 100px;
+    border-right: 1px solid #ccc;
+}
+.about dt{
+    width: 120px;
+    float: left;
+}
+.about dd{
+    float: left;
+    width: 170px;
+}
+.about dd a{
+    float: left;
+    width: 80px;
+    padding-bottom: 10px;
+    line-height:24px;
+}
+.footMain{
+    color: #666;
+}
+.footMain a{
+    color: #666;
+    float: left;
+}
+.footMain dt{
+    font-size: 18px;
+}
+.footMain dd{
+    font-size: 14px;
+}
+.onfocuse{
+    width: 260px;
+    height: 105px;
+    overflow: hidden;
+    float: left;
+    padding-left: 40px;
+    border-right: 1px solid #ccc;
+}
+.onfocuse dt{
+    width: 105px;
+    float: left;
+}
+.onfocuse dd{
+    float: left;
+    width: 150px;
+}
+.onfocuse dd a{
+    float: left;
+    width: 100px;
+    padding-left: 14px;
+    height: 32px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+}
+.weiboA{
+    background:url(../img/weibo.png) no-repeat ;
+}
+.weixinA{
+    background:url(../img/weixin.png) no-repeat ; 
+}
+.app{
+    float: left;
+    padding-left: 40px;
+}
+.app dt{
+    float: left;
+    width: 85px;
+}
+.app dd{
+    float: left;
+}
+.app dd img{
+    width: 80px;
+    height: 80px;
+    border:1px solid #ccc;
+    float: left;
+    clear: both;
+}
+.app dd p{
+    float: left;
+    font-size: 14px;
+    line-height: 32px;
+    clear: both;
+}
+.copeRight{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    line-height: 32px;
+    font-size: 14px;
+
+}
+.copeRight p{
+    width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+    color: #666;
+    padding:0 0 30px 0;
+}

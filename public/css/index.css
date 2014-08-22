@@ -1,0 +1,338 @@
+.show{
+    width: 330px;
+    height: 236px;
+    float: left;
+    border: 1px solid #ccc;
+}
+.poetryNews{
+	float: left;
+	width: 680px;
+	padding: 0 0 0 20px;
+
+}
+.poetryNews ul{
+	float: left;
+	width: 680px;
+}
+.poetryNews li{
+	float: left;
+	width: 340px;
+	line-height: 38px;
+}
+.poetryNews li a{
+	color: #666;
+	font-size: 14px;
+}
+.poetryLive{
+	width: 500px;
+	float: left;
+	font-size: 14px;
+}
+.left50{
+	margin: 0 0 0 50px;
+}
+.poetryLive h4{
+	font-size: 20px;
+	color: #fff;
+	width: 96px;
+	height: 36px;
+	background: #055f3e;
+	line-height: 36px;
+	margin: 15px 0;
+	text-align: center;
+	border-radius: 5px;
+}
+.poetryLive ul{
+	float: left;
+	width: 100%;
+}
+.poetryLive ul li{
+	float: left;
+	width: 100%;
+	border-bottom: 1px dashed #ccc;
+	color: #999;
+	line-height: 24px;
+	padding: 5px 0;
+}
+.poetryLive a{
+	color: #333;
+	float: left;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;	
+}
+.poetryLive span{
+	float: left;
+	text-align: right;
+	width: 100%;
+}
+.poetryType{
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	height: 36px;
+	line-height: 36px;
+	font-size: 20px;
+	font-weight: 600;	
+	float: left;
+}
+.poetryType li{
+	float: left;
+	padding: 0 20px;
+	height: 36px;
+	
+}
+.centerLi{
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+#on{
+	background: #055f3e;
+	color: #fff;
+}
+.box{
+	overflow: hidden;
+	clear: both;
+}
+.box ul{
+	float: left;
+	width: 100%;
+}
+.box li{
+	float: left;
+	width: 45%;
+	margin: 0 5% 0 0;
+	line-height: 30px;
+	font-size: 14px;
+	color: #666;
+	border-bottom: 1px dashed #ccc;
+	padding: 5px 0;
+}
+.box li a{
+	width: 60%;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #666;
+}
+.box li span{
+	width:40%;
+	float: right;
+	text-align: right;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.poetryStar{
+	float: left;
+	overflow: hidden;
+}
+.poetryStar .starImg{
+	float: left;
+	width: 240px;
+	height: 180px;
+	border: 1px solid #ccc;
+}
+.poetryStar dl{
+	padding-left: 28px;
+}
+.poetryStar dl,.poetryStar dt,.poetryStar dd{
+	float: left;
+	width: 240px;
+	overflow: hidden;;
+	color: #666;
+}
+.poetryStar dt{
+	font-size: 20px;
+	line-height: 34px;
+}
+.poetryStar dd{
+	font-size: 14px;
+	line-height: 28px;
+}
+.starName{
+	float: left;
+	overflow: hidden;
+	background: #f8f8f8;
+	width: 94%;
+	padding: 10px 3%;
+}
+.starName a{
+	width: 12%;
+	padding: 5px 10px;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+	float: left;
+}
+.poetryTxt{
+	width: 100%;
+	font-size: 14px;
+	line-height: 30px;
+	padding: 10px 0 0 0;
+	float: left;
+}
+.enjoyPoetry{
+	float: left;
+	overflow: hidden;
+}
+.enjoyLeft{
+	float: left;
+	width: 525px;
+	height: 282px;
+	overflow: hidden;
+	background: url(../img/enjoyLeft.png) no-repeat;
+}
+.enjoyLeft ul{
+	float: right;
+	width: 395px;
+	padding: 15px 20px 0 0;
+}
+.enjoyLeft li{
+	float: left;
+	width: 395px;
+	font-size: 14px;
+	line-height: 32px;
+	padding: 10px 0 0 0;
+	color: #999;
+	border-bottom: 1px dashed #ccc;
+}
+.enjoyLeft li a{
+	float: left;
+	width: 290px;
+	color: #666;
+}
+.enjoyLeft li span{
+	float: left;
+	width: 105px;
+	text-align: right;
+}
+.enjoyLeft .more{
+	float: right;
+	font-size: 14px;
+	color: #b91921;
+	margin: 10px 20px 0 0;
+	line-height: 32px;
+	clear: both;
+	overflow: hidden;
+}
+
+.enjoyRight{
+	float: left;
+	width: 525px;
+	height: 282px;
+	overflow: hidden;
+	background: url(../img/enjoyRight.png) no-repeat;
+}
+.enjoyRight ul{
+	float: left;
+	width: 395px;
+	padding: 15px 0 0 20px;
+}
+.enjoyRight li{
+	float: left;
+	width: 395px;
+	font-size: 14px;
+	line-height: 32px;
+	padding: 10px 0 0 0;
+	color: #999;
+	border-bottom: 1px dashed #ccc;
+}
+.enjoyRight li a{
+	float: left;
+	width: 290px;
+	color: #666;
+}
+.enjoyRight li span{
+	float: left;
+	width: 105px;
+	text-align: right;
+}
+.enjoyRight .more{
+	float: right;
+	font-size: 14px;
+	color: #b91921;
+	margin: 10px 112px 0 0;
+	line-height: 32px;
+	clear: both;
+	overflow: hidden;
+}
+.reciteUl,.teachUl{
+	float:left;
+	width: 100%;
+}
+.reciteUl li{
+	float: left;
+	padding: 5px 0 5px 20px;
+	line-height: 32px;
+	border-bottom: 1px dashed #ccc;
+	width: 490px;
+	background: url(../img/langsong.png) no-repeat 0px  14px;
+}
+.teachUl li{
+	float: left;
+	padding: 5px 0 5px 20px;
+	line-height: 32px;
+	border-bottom: 1px dashed #ccc;
+	width: 490px;
+	background: url(../img/huandeng.png) no-repeat 0px  14px;
+}
+.reciteUl li a,.teachUl li a{
+	float: left;
+	font-size: 14px;
+	color: #666;
+}
+.reciteUl p,.teachUl p{
+	float: left;
+	color: #999;
+	font-size: 12px;
+	padding-left: 10px;
+}
+.reciteUl span,.teachUl span{
+	float: right;
+	font-size: 14px;
+	color: #999;
+}
+.poemsBook{
+	float: left;
+	width: 150px;
+	text-align: center;
+}
+.poemsBook a{
+	float: left;
+	width: 150px;
+}
+.poemsBook a img{
+	float: left;
+	width: 150px;
+	height: 200px;
+	overflow: hidden;
+}
+.poemsBook p{
+	float: left;
+	width: 100%;
+	line-height: 32px;
+	font-size: 14px;
+	color: #333;
+}
+.poemsBook span{
+	float: left;
+	width: 100%;
+	line-height: 32px;
+	font-size: 14px;
+	color: #999;
+}
+.right30{
+	padding-right: 30px;
+}
+.pTop20{
+	padding-top: 20px;
+}
+.weibo a{
+	float: left;
+	width: 160px;
+	padding:2px 15px 2px 0;
+	font-size: 14px;
+	color: #333;
+	line-height: 32px;
+
+}
+
